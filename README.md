@@ -42,11 +42,11 @@ Group and peer variants work with ARIA attributes to style elements based on the
 
 ```html
 <div class="group" aria-expanded="true">
-  <p class="group:aria-expanded:true:text-bold">This text is bold when the parent is expanded.</p>
+  <p class="group:aria-expanded:text-bold">This text is bold when the parent is expanded.</p>
 </div>
 
 <div class="peer" aria-hidden="true">
-  <p class="peer:aria-hidden:true:text-italic">This text is italic when the preceding sibling is hidden.</p>
+  <p class="peer:aria-hidden:text-italic">This text is italic when the preceding sibling is hidden.</p>
 </div>
 ```
 
